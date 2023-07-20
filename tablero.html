@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        
+        let numero = parseInt(prompt("Introduce un número"))
+        tablero = ""
+
+        for (i = 0 ; i < numero ; i = i + 1)
+        {
+            for(j = 0 ; j < numero ; j = j + 1)
+            {
+                if((i+j) %2 == 0){
+
+                    tablero = tablero + "X"
+
+                } else{
+                    tablero = tablero + "O"
+                }
+            }
+            tablero = tablero + "\n"
+        }
+        console.log(tablero)
+        
+        
+
+        
+        
+       
+
+
+
+
+
+    </script>
+
+</body>
+</html>
